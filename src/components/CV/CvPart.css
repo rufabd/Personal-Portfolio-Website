@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  /* padding: 40px; */
+  margin-bottom: 200px;
+}
+
+.button-part {
+  position: absolute;
+  margin-top: 150px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button-part input {
+  background: none;
+  border: 2px solid #eb3007;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.7s;
+  color: #eb3007;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.button-part input:hover {
+  color: #fff;
+  background-color: #eb3007;
+}
+
+.button-part form {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .button-part {
+    width: 400px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .button-part {
+    width: 400px;
+    padding-left: 10%;
+  }
+  .heading {
+    font-size: 20px;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button-part {
+    width: 400px;
+    padding-left: 37%;
+  }
+  .heading {
+    font-size: 20px;
+    padding-left: 30%;
+  }
+}

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  margin-bottom: 170px;
+}
+
+.skills-title-part {
+  position: absolute;
+  margin-bottom: 550px;
+}
+
+.skills-bar {
+  /* margin-left: 30%; */
+  display: grid;
+  height: 100%;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 1000px;
+  background: #0f3b57;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.skills-bar .bar {
+  margin: 20px 0;
+}
+
+.skills-bar .bar:nth-child(1) {
+  margin-top: 10px;
+}
+
+.skills-bar .bar .info {
+  margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+    0px 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  height: 100%;
+  width: 80%;
+  /* background: #6665ee; */
+  background: #eb3007;
+  /* eb3007 */
+  position: absolute;
+  border-radius: 10px;
+}
+
+.info span {
+  color: white;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress-line.html span {
+  width: 90%;
+}
+.progress-line.css span {
+  width: 60%;
+}
+.progress-line.jquery span {
+  width: 85%;
+}
+.progress-line.python span {
+  width: 50%;
+}
+.progress-line.mysql span {
+  width: 75%;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  background: #000;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+.progress-line.html span::after {
+  content: "90%";
+}
+.progress-line.css span::after {
+  content: "60%";
+}
+.progress-line.jquery span::after {
+  content: "85%";
+}
+.progress-line.python span::after {
+  content: "50%";
+}
+.progress-line.mysql span::after {
+  content: "75%";
+}
+
+@media screen and (max-width: 946px) {
+  .skills-bar {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-bar {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .skills-bar {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .skills-bar {
+    width: 350px;
+    margin-left: 9%;
+  }
+  .skills-title-part {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .skills-bar {
+    width: 270px;
+    margin-left: 20%;
+  }
+  .skills-title-part {
+    margin-left: 30%;
+    font-size: 15px;
+  }
+}
+
+/* .row {
+  display: flex;
+  position: relative;
+}
+
+.percentagem1 {
+  width: 86%;
+}
+
+.percentagem2 {
+  width: 46%;
+}
+
+.percentagem3 {
+  width: 36%;
+}
+
+.percentagem4 {
+  width: 28%;
+}
+
+.col-sm-12 {
+  left: 0;
+  flex: 1;
+  flex-direction: column;
+}
+
+.mh-skills .mh-professional-skill {
+  padding-right: 60px;
+  color: white;
+}
+
+.mh-skills .mh-professional-skill h3 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+.mh-professional-progress li {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 48%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mh-progress {
+  margin-bottom: 10px;
+  font: 900 1.4285/1;
+  color: white;
+} */
