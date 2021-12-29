@@ -54,6 +54,7 @@
 
 .a-desc {
   font-weight: 300;
+  padding-right: 5%;
 }
 
 /* .a-award {
@@ -107,6 +108,12 @@
   .a-card {
     margin-left: 120px;
   } */
+}
+
+@media screen and (max-width: 950px) {
+  .a {
+    margin-bottom: 70px;
+  }
 }
 
 @media screen and (max-width: 550px) {

@@ -1,4 +1,5 @@
 import "./CvPart.css";
+import CVFile from "../../FileCv/Rufat_Abdullayev_CV.pdf";
 
 const CvPart = () => {
   return (
@@ -8,7 +9,7 @@ const CvPart = () => {
       </div>
       <div className="button-part">
         <form>
-          <a href="./Rufat.pdf" download="">
+          <a href={CVFile} download="">
             <input type="button" value="Download" />
           </a>
         </form>

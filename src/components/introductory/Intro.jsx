@@ -19,9 +19,10 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+            I design and develop modern and stylish websites, web services,
+            android phone applications and help to customers of all sizes for
+            Shopify ecommerce store creation and configuration according to my
+            paste experience and skills I gained till today.
           </p>
         </div>
         <svg
@@ -33,7 +34,7 @@ const Intro = () => {
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g id="scroll">
+          {/* <g id="scroll">
             <path
               id="Vector"
               d="M40.5 15L34.5 9L28.5 15"
@@ -78,7 +79,7 @@ const Intro = () => {
                 stroke-linejoin="round"
               />
             </g>
-          </g>
+          </g> */}
         </svg>
       </div>
       <div className="i-sides-right">

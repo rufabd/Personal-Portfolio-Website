@@ -25,7 +25,7 @@ body {
 
 .skills-title-part {
   position: absolute;
-  margin-bottom: 550px;
+  margin-bottom: 1050px;
 }
 
 .skills-bar {
@@ -91,20 +91,35 @@ body {
   }
 }
 
-.progress-line.html span {
-  width: 90%;
+.progress-line.php span {
+  width: 35%;
 }
-.progress-line.css span {
-  width: 60%;
+.progress-line.java span {
+  width: 40%;
 }
-.progress-line.jquery span {
+.progress-line.html-css span {
+  width: 55%;
+}
+.progress-line.javaScript span {
+  width: 20%;
+}
+.progress-line.cSharp span {
+  width: 30%;
+}
+.progress-line.rest span {
+  width: 20%;
+}
+.progress-line.sql span {
+  width: 45%;
+}
+.progress-line.shopify span {
   width: 85%;
 }
-.progress-line.python span {
-  width: 50%;
+.progress-line.adobeXd span {
+  width: 65%;
 }
-.progress-line.mysql span {
-  width: 75%;
+.progress-line.adobePhoto span {
+  width: 23%;
 }
 
 .bar .progress-line span::before {
@@ -132,20 +147,35 @@ body {
   border-radius: 3px;
 }
 
-.progress-line.html span::after {
-  content: "90%";
+.progress-line.php span::after {
+  content: "35%";
 }
-.progress-line.css span::after {
-  content: "60%";
+.progress-line.java span::after {
+  content: "40%";
 }
-.progress-line.jquery span::after {
+.progress-line.html-css span::after {
+  content: "55%";
+}
+.progress-line.javaScript span::after {
+  content: "20%";
+}
+.progress-line.cSharp span::after {
+  content: "30%";
+}
+.progress-line.rest span::after {
+  content: "20%";
+}
+.progress-line.sql span::after {
+  content: "45%";
+}
+.progress-line.shopify span::after {
   content: "85%";
 }
-.progress-line.python span::after {
-  content: "50%";
+.progress-line.adobeXd span::after {
+  content: "65%";
 }
-.progress-line.mysql span::after {
-  content: "75%";
+.progress-line.adobePhoto span::after {
+  content: "23%";
 }
 
 @media screen and (max-width: 946px) {
