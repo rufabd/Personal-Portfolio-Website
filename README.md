@@ -1,4 +1,4 @@
-# The information related to my contact details, CV and services will be UPDATED very soon. For any inqueries contact me via: mrrufatabd@gmail.com
+## The information related to my contact details, CV and services on the website will be UPDATED very soon. For any inqueries or questions please contact me via: mrrufatabd@gmail.com
 
 # Getting Started with Create React App
 
