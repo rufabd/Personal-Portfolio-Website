@@ -1,3 +1,5 @@
+# The information related to my contact details, CV and services will be UPDATED very soon. For any inqueries contact me via: mrrufatabd@gmail.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
